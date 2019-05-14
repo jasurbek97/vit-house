@@ -1,0 +1,351 @@
+/*----- 4K Monitors -----*/
+@media screen and (max-width: 2560px) {
+	
+}
+
+/*----- Laptop L -----*/
+@media screen and (max-width: 1440px) {
+	
+}
+
+@media screen and (max-width: 1200px) {
+	
+}
+
+
+/*----- Laptop -----*/
+@media screen and (max-width: 1024px) {
+	.contact-info {
+		padding: 45px;
+	}
+
+	.contact-info a {
+		font-size: 20px;
+	}
+	.pb-50px {
+		padding-bottom: 35px;
+	}
+}
+
+
+@media screen and (max-width: 850px) {
+	
+}
+
+
+/*----- Tablet -----*/
+@media screen and (max-width: 768px) {
+	.section01 h2 {
+		font-size: 40px;
+	}
+	.section01 h3 {
+		font-size: 20px;
+	}
+	.section01 p {
+		font-size: 13px;
+	}
+	.main-h2 {
+		font-size: 80px;
+	}
+	.modal-form p {
+		font-size: 20px;
+	}
+	.modal-form h2 {
+		font-size: 60px;
+	}
+	.contact-info a {
+		font-size: 16px;
+	}
+
+	.contact-info p {
+		font-size: 13px;
+	}
+
+	.contact-info {
+		padding: 25px;
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	.res-dnone {
+		display: none!important;
+	}
+	.res-dblock {
+		display: block;
+	}
+	.header-part .col-md-6 {
+		height: 44vh!important;
+	}
+	.main-h2 {
+		top: 35%;
+		font-size: 55px;
+	}
+	.header-btn {
+		top: 45%;
+	}
+	.mydiv {
+		margin-left: 20px;
+	}
+
+	.main-nav {
+		background: #19181b;
+		height: 80px;
+	}
+	.myw-100 {
+		width: 50%;
+	} 
+	.menu-toggle {
+		top: 20px;
+		right: 20px;
+	}
+	.myrow {
+		padding-top: 80px;
+	}
+	.myheader-p2 {
+		padding: 0;
+	}
+	.myslider-nav {
+		top: 40%;
+	}
+	.nav__list {
+		justify-content: center;
+		display: flex;
+		width: 100%;
+	}
+	.nav__list {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 0 auto;
+		width: 25%;
+	}
+	.nav__list-item {
+		padding: 10px 0;
+		text-align: left;
+
+	}
+	.modal-form p {
+		width: 100%;
+	}
+	.modal-form h2 {
+		font-size: 40px;
+	}
+	.modal-form p {
+		font-size: 14px;
+	}
+	.main-form input {
+		width: 100%;
+		margin: 5px 0;
+	}
+	.mydiv2 {
+		flex-direction: column;
+		width: 80%;
+	}
+	.myw-50 {
+		width: 100%!important;
+	}
+	.container-fluid {
+		padding-right: 15px!important;
+		padding-left: 15px!important;
+	}
+	.myalign-items-end {
+		align-items: center;
+	}
+	.myflex {
+		flex-direction: column;
+	}
+	.pb-50px {
+		padding-bottom: 20px;
+	}
+	.myheader-p1 {
+		padding-top: 35px;
+	}
+
+	.myheader-p2 {
+		padding-bottom: 35px;
+		margin-left: 45px;
+	}
+
+	.header-line {
+		margin-right: 15px;
+	}
+	.myswiper-pagination {
+		margin-left: 15px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.contact-info a {
+		font-size: 20px;
+	}
+
+	.contact-info p {
+		font-size: 14px;
+	}
+	.myclass1 {
+		position: absolute;
+		top: 50px;
+		font-size: 16px;
+		left: 10px;
+		z-index: 999
+	}
+	.contact-info {
+		padding: 40px;
+	}
+
+	#scene1 {
+		top: 10%!important;
+		left: 35%!important;
+	}
+
+	#scene2 {
+		top: 50%!important;
+		left: 35%!important;
+	}
+
+	#scene3 {
+		top: 80%!important;
+		left: 35%!important;
+	}
+
+	#scene4 {
+		top: 110%!important;
+		left: 35%!important;
+	}
+}
+
+
+/*----- Mobile L -----*/
+@media screen and (max-width: 425px) {
+	.section01 h2 {
+		font-size: 30px;
+	}
+	.section01 h3 {
+		font-size: 18px;
+	}
+}
+
+/*----- Mobile M -----*/
+@media screen and (max-width: 375px) {
+	.modal-form h2 {
+		font-size: 30px;
+	}
+
+	.modal-form p {
+		font-size: 14px;
+		width: 80%;
+	}
+}
+
+/*----- Mobile S -----*/
+@media screen and (max-width: 320px) {
+	.main-h2 {
+		font-size: 35px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------ MOBILE-FIRST Method ------------------*/
+
+/*----- Mobile S -----*/
+@media screen and (min-width: 320px) {
+	
+}
+
+
+/*----- Mobile M -----*/
+@media screen and (min-width: 375px) {
+	
+}
+
+
+/*----- Mobile L -----*/
+@media screen and (min-width: 425px) {
+	
+}
+
+
+/*----- Tablet -----*/
+@media screen and (min-width: 600px) {
+	
+}
+
+@media screen and (min-width: 768px) {
+	
+}
+
+
+/*----- Laptop -----*/
+@media screen and (min-width: 850px) {
+	
+}
+
+@media screen and (min-width: 1024px) {
+	
+}
+
+
+/*----- Laptop L -----*/
+@media screen and (min-width: 1200px) {
+	
+}
+
+@media screen and (min-width: 1440px) {
+	.myblock {
+		width: 270px!important;
+		height: 350px!important;
+	}
+
+	.myblock2 {
+		width: 270px!important;
+		height: 350px!important;
+	}
+
+	.myblock3 {
+		width: 270px!important;
+		height: 350px!important;
+	}
+
+	.myblock4 {
+		width: 270px!important;
+		height: 350px!important;
+	}
+	.top-img {
+		height: 320px!important;  
+	}
+}
+
+/*----- 4K Monitors -----*/
+@media screen and (min-width: 2560px) {
+	.myblock {
+		width: 450px!important;
+		height: 600px!important;
+	}
+
+	.myblock2 {
+		width: 450px!important;
+		height: 600px!important;
+	}
+
+	.myblock3 {
+		width: 450px!important;
+		height: 600px!important;
+	}
+
+	.myblock4 {
+		width: 450px!important;
+		height: 600px!important;
+	}
+	.top-img {
+		height: 450px!important;  
+	}
+}
